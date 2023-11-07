@@ -1,0 +1,13 @@
+{
+    "@@locale": "en",
+    "onboarding_one_title":"View and print exam results quickly",
+    "onboarding_one_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut et cursus nibh facilisi semper \n aliquam.",
+    "nextButtonLabel":"Next",
+    "skipButtonLabel":"Skip",
+    "onboarding_two_title":"Get notified of your child’s activities",
+    "onboarding_two_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut et cursus nibh facilisi semper \n aliquam.",
+    "onboarding_three_title":"Understand your child’s academic strengths",
+    "onboarding_three_description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut et cursus nibh facilisi semper aliquam.",
+    "getStartedButtonLabel":"Get Started"
+
+}
