@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:parent_app/route.dart';
+import 'package:parent_app/widgets/buttons/custom_button.dart';
 
 import '../l10n/gen/app_localizations.dart';
-import '../widgets/buttons/confirm_button.dart';
 
-import '../widgets/buttons/skip_button.dart';
 import '../widgets/outboarding.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -78,9 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ],
                 ),
               ),
-              // const SizedBox(height: 30.0),
               SizedBox(
-                // height: constraints.maxHeight * 0.02,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: List<Widget>.generate(_totalPages, (int index) {
@@ -139,7 +137,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: constraints.maxHeight * 0.07,
                   width: double.infinity,
                   child: ConfirmButton(
-                      onpPressed: _goToNextPage,
+                      onpPressed: () => Navigator.of(context)
+                          .pushReplacementNamed(
+                              RouteGenerator.parentLoginScreen),
                       labelColor: Colors.white,
                       labelText: Locales.of(context).getStartedButtonLabel),
                 ),

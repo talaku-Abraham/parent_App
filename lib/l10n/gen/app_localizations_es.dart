@@ -30,4 +30,70 @@ class LocalesEs extends Locales {
 
   @override
   String get getStartedButtonLabel => 'Get Started';
+
+  @override
+  String get log_in_detail => 'Enter your login \n details';
+
+  @override
+  String get email_username => 'Email/Username';
+
+  @override
+  String get enterTextPrompt => 'please enter some text';
+
+  @override
+  String get passwordText => 'Password';
+
+  @override
+  String get forgotPasswordText => 'Forgot Password?';
+
+  @override
+  String get loginText => 'Log in';
+
+  @override
+  String get createAccountButtonText => 'Click here to create an account';
+
+  @override
+  String get hintLabelText => 'e.g john doe';
+
+  @override
+  String get accountCreateText => 'Create a new account';
+
+  @override
+  String get emailText => 'Enter your email address';
+
+  @override
+  String get emailLabel => 'Email';
+
+  @override
+  String get passwordLabel => 'Confirm password';
+
+  @override
+  String get signUpLabel => 'Sign up';
+
+  @override
+  String get accountExistText => 'Already have an account?';
+
+  @override
+  String get otpText => 'OTP Verification';
+
+  @override
+  String get otpEnter => 'Enter the one time password sent to';
+
+  @override
+  String get userEmail => 'Johndoe***@gmail.com';
+
+  @override
+  String get didnotGetCodeText => 'Didn’t get code?';
+
+  @override
+  String get resendText => 'Resend';
+
+  @override
+  String get resendTimeText => 'in 00:29';
+
+  @override
+  String get verifyText => 'Verify';
+
+  @override
+  String get codeViaEmailText => 'Receive code via email';
 }

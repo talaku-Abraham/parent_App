@@ -146,6 +146,138 @@ abstract class Locales {
   /// In en, this message translates to:
   /// **'Get Started'**
   String get getStartedButtonLabel;
+
+  /// No description provided for @log_in_detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your login \n details'**
+  String get log_in_detail;
+
+  /// No description provided for @email_username.
+  ///
+  /// In en, this message translates to:
+  /// **'Email/Username'**
+  String get email_username;
+
+  /// No description provided for @enterTextPrompt.
+  ///
+  /// In en, this message translates to:
+  /// **'please enter some text'**
+  String get enterTextPrompt;
+
+  /// No description provided for @passwordText.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get passwordText;
+
+  /// No description provided for @forgotPasswordText.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password?'**
+  String get forgotPasswordText;
+
+  /// No description provided for @loginText.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in'**
+  String get loginText;
+
+  /// No description provided for @createAccountButtonText.
+  ///
+  /// In en, this message translates to:
+  /// **'Click here to create an account'**
+  String get createAccountButtonText;
+
+  /// No description provided for @hintLabelText.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g john doe'**
+  String get hintLabelText;
+
+  /// No description provided for @accountCreateText.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a new account'**
+  String get accountCreateText;
+
+  /// No description provided for @emailText.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email address'**
+  String get emailText;
+
+  /// No description provided for @emailLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get emailLabel;
+
+  /// No description provided for @passwordLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm password'**
+  String get passwordLabel;
+
+  /// No description provided for @signUpLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up'**
+  String get signUpLabel;
+
+  /// No description provided for @accountExistText.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get accountExistText;
+
+  /// No description provided for @otpText.
+  ///
+  /// In en, this message translates to:
+  /// **'OTP Verification'**
+  String get otpText;
+
+  /// No description provided for @otpEnter.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the one time password sent to'**
+  String get otpEnter;
+
+  /// No description provided for @userEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Johndoe***@gmail.com'**
+  String get userEmail;
+
+  /// No description provided for @didnotGetCodeText.
+  ///
+  /// In en, this message translates to:
+  /// **'Didn’t get code?'**
+  String get didnotGetCodeText;
+
+  /// No description provided for @resendText.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend'**
+  String get resendText;
+
+  /// No description provided for @resendTimeText.
+  ///
+  /// In en, this message translates to:
+  /// **'in 00:29'**
+  String get resendTimeText;
+
+  /// No description provided for @verifyText.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify'**
+  String get verifyText;
+
+  /// No description provided for @codeViaEmailText.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive code via email'**
+  String get codeViaEmailText;
 }
 
 class _LocalesDelegate extends LocalizationsDelegate<Locales> {
